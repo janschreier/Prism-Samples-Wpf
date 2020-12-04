@@ -10,7 +10,7 @@ namespace ModuleA.ViewModels
     {
         public ViewAViewModel()
         {
-
+            throw new NullReferenceException("test");
         }
     }
 }
